@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="DiegoViquez" content="Estudiante ISW">
+    <meta name="description" content="Ejemplo con todas las etiquetas HTML solicitadas">
+    <title>Ejemplo Completo HTML</title>
+    <base href="https://example.com/">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a mi Página</h1>
+        <hgroup>
+            <h2>Subtítulo Principal</h2>
+            <h3>Introducción</h3>
+        </hgroup>
+    </header>
+
+    <!-- Información de contacto -->
+    <address>
+        <img src="Images/Avatar Deadpool.jpg" alt="Deadpool">
+        Autor: Diego Viquez<br>
+        Email: <a href="mailto:diegoviquez87@gmail.com">diegoviquez87@gmail.com</a>
+    </address>
+
+    <!-- Sección principal -->
+    <main>
+        <section>
+            <h2>Sección de Contenido</h2>
+            <p>Este es un párrafo con texto <b>en negrita</b>, <i>en cursiva</i> y <mark>resaltado</mark>.</p>
+            <p>Aquí hay un texto con <strong>énfasis fuerte</strong> y un término definido: <dfn>Término</dfn>.</p>
+            <blockquote>
+                "Este es un ejemplo de cita en bloque."
+            </blockquote>
+            <q>Esta es una cita en línea.</q>
+            <cite>- Fuente de la cita</cite>
+        </section>
+
+        <!-- Lista ordenada -->
+        <section>
+            <h2>Listas</h2>
+            <ol>
+                <li>Primer elemento</li>
+                <li>Segundo elemento</li>
+                <li>Tercer elemento</li>
+            </ol>
+
+            <!-- Lista desordenada -->
+            <ul>
+                <li>Elemento A</li>
+                <li>Elemento B</li>
+                <li>Elemento C</li>
+            </ul>
+
+            <!-- Lista de definiciones -->
+            <dl>
+                <dt>Término 1</dt>
+                <dd>Definición del término 1.</dd>
+                <dt>Término 2</dt>
+                <dd>Definición del término 2.</dd>
+            </dl>
+        </section>
+
+        <!-- Figura con descripción -->
+        <figure>
+            <img src="example.jpg" alt="Descripción de la imagen">
+            <figcaption>Figura 1: Ejemplo de imagen.</figcaption>
+        </figure>
+
+        <!-- Detalles interactivos -->
+        <details>
+            <summary>Más Información</summary>
+            <p>Este es un texto que se muestra al expandir.</p>
+        </details>
+    </main>
+
+    <!-- Multimedia -->
+    <section>
+        <h2>Contenido Multimedia</h2>
+
+        <!-- Audio -->
+        <audio controls>
+            <source src="Audio/CinematicAudio.mp3" type="audio/mpeg">
+            Tu navegador no soporta la reproducción de audio.
+        </audio>
+
+        <!-- Video -->
+        <video controls width="320" height="240">
+            <source src="video.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video.
+        </video>
+
+        <!-- Iframe para YouTube -->
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=X_Z7d04x9-E&t=142s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </section>
+
+    <!-- Gráficos -->
+    <section>
+        <h2>Gráficos</h2>
+
+        <!-- Canvas -->
+        <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000;"></canvas>
+
+        <!-- SVG -->
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+        </svg>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p><small>&copy; 2025 Mi Sitio Web</small></p>
+    </footer>
+</body>
+</html>
